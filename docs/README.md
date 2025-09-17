@@ -5,7 +5,7 @@ title: 睿仕教育
 pageClass: custom-page-class
 heroImage: https://vuepress.vuejs.org/images/hero.png
 heroHeight: 100
-heroText: 睿仕教育
+heroText: 睿仕教育1
 tagline: 这是一个测试页面11111
 
 actions:
