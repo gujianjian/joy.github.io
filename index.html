@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.20" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>睿仕教育 | VuePress</title><meta name="description" content="My first VuePress Site">
+    <link rel="preload" href="/assets/style-BM9tVIu7.css" as="style"><link rel="stylesheet" href="/assets/style-BM9tVIu7.css">
+    <link rel="modulepreload" href="/assets/app-BxufsLXO.js"><link rel="modulepreload" href="/assets/index.html-UJpLGmnH.js">
+    <link rel="prefetch" href="/assets/get-started.html-008O4WH2.js" as="script"><link rel="prefetch" href="/assets/test.html-llXcuh8w.js" as="script"><link rel="prefetch" href="/assets/test1.html-B7kbxz36.js" as="script"><link rel="prefetch" href="/assets/test2.html-CqfYTaPN.js" as="script"><link rel="prefetch" href="/assets/404.html-A5kMBnJT.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container no-navbar no-sidebar external-link-icon custom-page-class" vp-container><!--[--><!----><!--]--><div class="vp-sidebar-mask"></div><!--[--><aside class="vp-sidebar" vp-sidebar><nav class="vp-navbar-items" aria-label="site navigation"><!--[--><div class="vp-navbar-item"><a class="route-link route-link-active auto-link" href="/" aria-label="睿仕教育"><!--[--><!--[--><!--]--><!--]-->睿仕教育<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="route-link auto-link" href="/get-started.html" aria-label="Get Started"><!--[--><!--[--><!--]--><!--]-->Get Started<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="route-link auto-link" href="/test.html" aria-label="测试1"><!--[--><!--[--><!--]--><!--]-->测试1<!--[--><!--[--><!--]--><!--]--></a></div><!--]--></nav><!--[--><!--]--><!----><!--[--><!--]--></aside><!--]--><!--[--><main class="vp-home"><header class="vp-hero"><img class="vp-hero-image" src="https://vuepress.vuejs.org/images/hero.png" alt="睿仕教育" height="100"><h1 id="main-title">睿仕教育</h1><p class="vp-hero-description">这是一个测试页面11111</p><p class="vp-hero-actions"><!--[--><a class="route-link auto-link vp-hero-action-button primary" href="/test.html" aria-label="快速上手"><!--[--><!--[--><!--]--><!--]-->快速上手<!--[--><!--[--><!--]--><!--]--></a><a class="route-link auto-link vp-hero-action-button secondary" href="/zh/guide/introduction.html" aria-label="项目简介"><!--[--><!--[--><!--]--><!--]-->项目简介<!--[--><!--[--><!--]--><!--]--></a><!--]--></p></header><div class="vp-features"><!--[--><div class="vp-feature"><h2>简洁至上</h2><p>以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。</p></div><div class="vp-feature"><h2>Vue 驱动</h2><p>享受 Vue 的开发体验，可以在 Markdown 中使用 Vue 组件，又可以使用 Vue 来开发自定义主题。</p></div><div class="vp-feature"><h2>高性能</h2><p>VuePress 会为每个页面预渲染生成静态的 HTML，同时，每个页面被加载的时候，将作为 SPA 运行。</p></div><!--]--></div><div vp-content><div></div></div><!--[--><div class="vp-footer" vp-footer>111</div><!--]--></main><!--]--></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-BxufsLXO.js" defer></script>
+  </body>
+</html>
